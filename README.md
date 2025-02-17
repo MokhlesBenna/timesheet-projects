@@ -19,7 +19,6 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
-# CHAP4  
-Mokhles Benna - 4TWIN9
-
+  
 # CHAP4/Branch
+Mokhles Benna - 4TWIN9
