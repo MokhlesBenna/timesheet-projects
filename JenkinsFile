@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('GIT') {
+            steps {
+                git 'https://github.com/your-repo.git'
+            }
+        }
+
+        stage('COMPILATION') {
+            steps {
+                sh 'mvn clean install'
+            }
+        }
+
+        stage('TESTS') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+
+        stage('DEPLOIEMENT') {
+            steps {
+                sh 'echo "Deployment step placeholder"'
+            }
+        }
+    }
+}
